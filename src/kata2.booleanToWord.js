@@ -1,16 +1,13 @@
-const booleanToWord = (boolean) => {
-    return (boolean === true ? 'Yes' : 'No');
-};    
-    
-    // or the long way...
-  //  if (boolean === true) {
-  //          return 'Yes'
-  //      } else {
-  //          return 'No'
-  //      }
-  //     };
+//simple and concise code.
+//Could have used a ternary operator:
+// return boolean ? 'Yes' : 'No';
 
-       
+const booleanToWord = (boolean) => {
+  if (boolean) {
+    return 'Yes';
+  } else {
+    return 'No';
+  }
+}
 
 module.exports = booleanToWord;
- 
