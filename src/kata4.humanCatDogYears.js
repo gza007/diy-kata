@@ -1,8 +1,12 @@
 const humanCatDogYears = (number) => {
-let Human = number;
-let Cat = 24+((number-2)*4);
-let Dog = 24+((number-2)*5);
-return [Human, Cat, Dog];
+    let Human = number;
+    let Cat = 24+((number-2)*4);
+    let Dog = 24+((number-2)*5);
+    if (number <= 0) {
+        return [0, 0, 0];
+    } else {
+        return [Human, Cat, Dog];
+    };
 };
 
 // formulas
