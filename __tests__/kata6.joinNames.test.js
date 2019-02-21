@@ -7,3 +7,4 @@ describe('joinNames', () => {
     expect(joinNames([{name: 'Bart'}, {name: 'Lisa'}, {name: 'Maggie'}, {name: 'Marge'}, {name: 'Homer'}])).toEqual('Bart, Lisa, Maggie, Marge & Homer');
   });
 });
+  
